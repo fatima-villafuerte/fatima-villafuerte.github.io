@@ -30,7 +30,7 @@
     </a>
 
     <ul class="nav nav-pills">
-      <li class="nav-item boton-inicio"><a id="inicio" href="#" class="nav-link active" aria-current="page">Perfil</a>
+      <li class="nav-item boton-inicio"><a id="boton-perfil" href="#" class="nav-link active" aria-current="page">Perfil</a>
       </li>
       <li class="nav-item"><a href="#hanging-icons perfil" class="nav-link">Perfil profesional</a></li>
       <li class="nav-item"><a href="#proyectos" class="nav-link">Proyectos</a></li>
@@ -40,7 +40,7 @@
   </header>
   <main>
     <!-- Hero -->
-    <div id="inicio" class="hero">
+    <div id="perfil" class="hero">
       <div class="px-4 py-5 my-5 text-center">
         <img class="d-block mx-auto mb-4 rounded-circle" src="assets/fotoPerfil.jpg" alt="" width="" height="200">
 
@@ -64,7 +64,7 @@
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
           <div class="col d-flex align-items-start">
             <div
-              class="icon-square bg-body-secondary d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
+              class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
               <i class="bi bi-activity px-1"></i>
             </div>
             <div>
@@ -75,7 +75,7 @@
           </div>
           <div class="col d-flex align-items-start">
             <div
-              class="icon-square bg-body-secondary d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
+              class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
               <i class="bi bi-pc-display px-1"></i>
             </div>
             <div>
@@ -85,7 +85,7 @@
           </div>
           <div class="col d-flex align-items-start">
             <div
-              class="icon-square bg-body-secondary d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
+              class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
               <i class="bi bi-laptop-fill px-1"></i>
             </div>
             <div>
@@ -107,9 +107,9 @@
         <div class="col-md-7">
           <h2 class="featurette-heading fw-normal lh-1">Página Web.</h2>
           <p class="lead">Primer acercamiento al leguaje de marcado tipo HTML.</p>
-          <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank"
+          <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a id="btn-a" target="_blank"
               href="https://mi-primer-sitio-web-three.vercel.app/">Ver</a></button>
-          <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank"
+          <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a id="btn-a" target="_blank"
               href="https://github.com/fatima-villafuerte/miPrimerSitioWeb">Github</a></button>
         </div>
         <div class="col-md-5">
@@ -127,9 +127,9 @@
           <p class="lead">Desarrollé un clon sencillo de Pinterest como proyecto personal para consolidar mis
             conocimientos en HTML, CSS y JavaScript. Este proyecto me permitió poner en práctica conceptos como la
             manipulación del DOM y el diseño responsivo.</p>
-          <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank"
+          <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a id="btn-a" target="_blank"
               href="https://pinterest-clone-seven-eta.vercel.app/">Ver</a></button>
-          <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank"
+          <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a id="btn-a" target="_blank"
               href="https://github.com/fatima-villafuerte/pinterest-clone">Github</a></button>
         </div>
         <div class="col-md-5 order-md-1">
@@ -150,8 +150,8 @@
             soluciones de manera eficiente en espacios complejos y de alta dimensión. El uso del método de mínimos
             cuadrados generalizados asegura que se consideren las incertidumbres en los datos, logrando así un ajuste
             más robusto y fiable.</p>
-          <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank"
-              href="https://github.com/anelmontes/pinterest-clon">Github</a></button>
+          <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a id="btn-a" target="_blank"
+              href="https://github.com/fatima-villafuerte/CMA-ES_Gm">Github</a></button>
         </div>
         <div class="col-md-5">
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
@@ -166,9 +166,9 @@
           <h2 class="featurette-heading fw-normal lh-1">Clon de Pinterest.</h2>
           <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this
             layout would work with some actual real-world content in place.</p>
-          <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank"
+          <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a id="btn-a" target="_blank"
               href="https://pinterest-clon-jade.vercel.app/">Ver</a></button>
-          <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank"
+          <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a id="btn-a" target="_blank"
               href="https://github.com/anelmontes/pinterest-clon">Github</a></button>
         </div>
         <div class="col-md-5 order-md-1">
@@ -183,18 +183,16 @@
 
     <!-- Card -->
     <div>
-
       <div id="certificados" class="d-flex justify-content-center mt-5">
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-          <h2 class="pb-2 border-bottom">CERTIFICADOS</h2>
+          <h2 class="pb-5 mt-4 text-center">CERTIFICADOS</h2>
           <div class="certificados">
             <div class="carousel-item active">
               <div class="card" style="width: 60rem;">
                 <img src="assets/python.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Introducción a la programación con Python</h5>
-                  <p class="card-text"> Fortalecimiento de los fundamentos de programación en Python, logrando una
-                    comprensión sólida y práctica.</p>
+                  <p class="card-text">"Curso enfocado en fortalecer los fundamentos de programación en Python, abarcando desde conceptos básicos hasta su aplicación práctica. Ideal para desarrollar una comprensión sólida del lenguaje y mejorar habilidades en escritura de código eficiente y estructurado."</p>
 
                 </div>
               </div>
@@ -204,9 +202,7 @@
                 <img src="assets/matlab1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">MATLAB Onramp</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-
+                  <p class="card-text">"Curso enfocado en los fundamentos de MATLAB, incluyendo cómo manipular datos, realizar cálculos básicos, y crear gráficos. También adquirí habilidades en el uso de comandos esenciales y estructuras básicas para análisis y visualización de información."</p>
                 </div>
               </div>
             </div>
@@ -215,8 +211,7 @@
                 <img src="assets/matlab2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">MATLAB DesKtop Tools and Troubleshooting Scripts</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
+                  <p class="card-text">"Aprendí a utilizar herramientas del entorno de MATLAB y técnicas de depuración para identificar y resolver problemas en scripts, mejorando la eficiencia y organización del código."</p>
 
                 </div>
               </div>
@@ -226,8 +221,7 @@
                 <img src="assets/matlab3.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Introduction to Symbolic Math with MATLAB</h2>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
+                  <p class="card-text">"Aprendí a utilizar las herramientas de matemáticas simbólicas en MATLAB para resolver ecuaciones algebraicas y diferenciales, realizar cálculos algebraicos avanzados, simplificar expresiones matemáticas y visualizar resultados de manera gráfica."</p>
 
                 </div>
               </div>
